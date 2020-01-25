@@ -13,6 +13,8 @@
 		327B08E923DB95F20098DE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327B08E723DB95F20098DE9B /* Main.storyboard */; };
 		327B08EB23DB95F40098DE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327B08EA23DB95F40098DE9B /* Assets.xcassets */; };
 		327B08EE23DB95F40098DE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327B08EC23DB95F40098DE9B /* LaunchScreen.storyboard */; };
+		327B08F623DBA2D30098DE9B /* scoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B08F523DBA2D30098DE9B /* scoutVC.swift */; };
+		327B08F823DBA75B0098DE9B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B08F723DBA75B0098DE9B /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		327B08EA23DB95F40098DE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327B08ED23DB95F40098DE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327B08EF23DB95F40098DE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327B08F523DBA2D30098DE9B /* scoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoutVC.swift; sourceTree = "<group>"; };
+		327B08F723DBA75B0098DE9B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				327B08E123DB95F20098DE9B /* AppDelegate.swift */,
 				327B08E323DB95F20098DE9B /* SceneDelegate.swift */,
 				327B08E523DB95F20098DE9B /* ViewController.swift */,
+				327B08F523DBA2D30098DE9B /* scoutVC.swift */,
 				327B08E723DB95F20098DE9B /* Main.storyboard */,
 				327B08EA23DB95F40098DE9B /* Assets.xcassets */,
 				327B08EC23DB95F40098DE9B /* LaunchScreen.storyboard */,
 				327B08EF23DB95F40098DE9B /* Info.plist */,
+				327B08F723DBA75B0098DE9B /* Profile.swift */,
 			);
 			path = Scout;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				327B08E623DB95F20098DE9B /* ViewController.swift in Sources */,
+				327B08F823DBA75B0098DE9B /* Profile.swift in Sources */,
 				327B08E223DB95F20098DE9B /* AppDelegate.swift in Sources */,
 				327B08E423DB95F20098DE9B /* SceneDelegate.swift in Sources */,
+				327B08F623DBA2D30098DE9B /* scoutVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
